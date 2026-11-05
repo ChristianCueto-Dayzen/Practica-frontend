@@ -1,10 +1,12 @@
+import Navbar from './components/Navbar.jsx'
 import './App.css'
 
 function App() {
   return (
-    <main>
-      <h1>Dashboard de datos</h1>
-    </main>
+    <>
+      <Navbar />
+      <main></main>
+    </>
   )
 }
 
